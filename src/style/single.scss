@@ -29,13 +29,76 @@ header{
 header .top{
 	display:flex;
 	width:100%;
-	height:px2rem(44px);
+	height:px2rem(36px);
 	background:#F64744;
 	justify-content:space-between;
 }
 header p{
-	background:url(../img/logo.png) no-repeat px2rem(40px) px2rem(10px);
+	background:url(../img/logo.png) no-repeat px2rem(30px) px2rem(10px);
 	width:px2rem(178px);
-	height:px2rem(44px);
-	background-size: px2rem(100px) auto;
+	height:px2rem(36px);
+	background-size: px2rem(80px) auto;
 }
+header .top .left{
+	margin-left:px2rem(10px);
+	line-height:px2rem(36px);
+}
+header .top .left a{
+	text-decoration:none;
+	color:#fff;
+	font-size:px2rem(12px)
+}
+header .top .left i{
+	color:#fff;
+	font-size:px2rem(10px);
+	margin-left:px2rem(3px);
+}
+header .top .right{
+	margin-right:px2rem(10px);
+	line-height:px2rem(36px);
+}
+header .top .right a{
+	float:left;
+	text-decoration:none;
+	color:#fff;
+	font-size:px2rem(12px);
+}
+
+header .top .right i{
+	background:url(../img/user_icon.png) no-repeat px2rem(7px) px2rem(10px);
+	width:px2rem(20px);
+	height:px2rem(36px);
+	float:left;
+	background-size: px2rem(12px) auto;	
+}
+header .bottom{
+	width:100%;
+	height:px2rem(44px);
+	text-align:center;
+	position:relative;
+}
+header .bottom input{
+	margin-top:px2rem(6px);
+	width:90%;
+	display:inline-block;
+	height:px2rem(25px);
+	text-indent:px2rem(40px);
+	border:none;
+	border:1px solid #ccc;
+}
+header .bottom i{
+	width:px2rem(20px);
+	height:px2rem(20px);
+	display:block;
+	position:absolute;
+	left:px2rem(20px);
+	top:px2rem(10px);
+	background:url(../img/search.png) no-repeat;
+	background-size: px2rem(20px) auto;	
+}
+
+
+
+
+
+

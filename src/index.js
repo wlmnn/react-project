@@ -4,11 +4,10 @@ import App from './router/index';
 import registerServiceWorker from './registerServiceWorker';
 import {createStore, combineReducers} from 'redux';
 import {Provider} from 'react-redux';
-import WaimaiReducer from './reducers/WaimaiReducer';
+import SingleReducer from './reducers/SingleReducer';
 
 const recuders = combineReducers({
-	list: WaimaiReducer
-})
+	list: SingleReducer
 const store = createStore(recuders, {});
 
 

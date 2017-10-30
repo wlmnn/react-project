@@ -6,12 +6,11 @@ import {
   Link
 } from 'react-router-dom'
 import Single from '../component/Single';
-import Food from '../component/Food';
 
 const App = () => (
   <Router>
     <div>
-      <Route exact path="/" component={Food}/>
+      <Route exact path="/" component={Single}/>
     </div>
   </Router>
 )
